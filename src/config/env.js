@@ -84,7 +84,7 @@ const config = {
   
   // CORS Configuration
   CORS_ORIGIN: process.env.CORS_ORIGIN || (process.env.NODE_ENV === 'production' 
-    ? 'https://bloocube.com,https://admin.bloocube.com,https://api-backend.bloocube.com,https://api-ai-services.bloocube.com'
+    ? 'https://bloocube.com,https://admin.bloocube.com,https://api-backend.bloocube.com,https://api-ai-services.bloocube.com,http://localhost:5000,http://localhost:3000'
     : 'http://localhost:3000,https://bloocube.com,https://admin.bloocube.com,https://api-backend.bloocube.com,https://api-ai-services.bloocube.com'),
   FRONTEND_URL: process.env.FRONTEND_URL || (process.env.NODE_ENV === 'production' 
     ? 'https://bloocube.com' 
